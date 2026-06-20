@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #F6F0E7;
+  --forest: #355B3E;
+  --mustard: #F5B82E;
+  --ink: #111111;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--paper);
+  /* subtle paper fiber texture via layered radial noise */
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(17,17,17,0.035) 1px, transparent 0);
+  background-size: 4px 4px;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--mustard);
+  color: var(--ink);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--paper);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--forest);
+  border: 2px solid var(--paper);
+  border-radius: 8px;
+}
+
+/* Crop-mark / registration mark motif, used as a recurring signature */
+.crop-mark {
+  position: relative;
+}
+.crop-mark::before,
+.crop-mark::after {
+  content: "";
+  position: absolute;
+  background: var(--ink);
+  opacity: 0.5;
+}
+.crop-mark::before {
+  top: -10px;
+  left: 0;
+  width: 1px;
+  height: 8px;
+}
+.crop-mark::after {
+  top: 0;
+  left: -10px;
+  width: 8px;
+  height: 1px;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  font-size: 0.7rem;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1.5px var(--ink);
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
