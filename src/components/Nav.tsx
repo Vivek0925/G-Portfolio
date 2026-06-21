@@ -49,7 +49,7 @@ export default function Nav() {
             href="#contact"
             className="eyebrow rounded-full border border-ink px-4 py-2 transition-colors hover:bg-forest hover:text-paper hover:border-forest"
           >
-            Let's Talk
+            Let&apos;s Talk
           </a>
         </nav>
 

@@ -8,14 +8,7 @@ export type Project = {
 };
 
 export const graphicWork: Project[] = [
-  {
-    id: "g1",
-    title: "Agresita 2026",
-    category: "Event Branding",
-    tag: "College Fest",
-    image: "/graphics/agresita.jpg",
-    year: "2026",
-  },
+ 
   {
     id: "g2",
     title: "Route 404",
@@ -32,14 +25,15 @@ export const graphicWork: Project[] = [
     image: "/graphics/farewell.png",
     year: "2025",
   },
-  {
-    id: "g4",
-    title: "Debate Competition",
-    category: "Event Creative",
-    tag: "Promotion",
-    image: "/graphics/debate.png",
-    year: "2025",
+   {
+    id: "g1",
+    title: "Agresita 2026",
+    category: "Event Branding",
+    tag: "College Fest",
+    image: "/graphics/agresita.jpg",
+    year: "2026",
   },
+
   {
     id: "g5",
     title: "Volume 09",
@@ -70,6 +64,14 @@ export const graphicWork: Project[] = [
     category: "Commercial Design",
     tag: "Marketing",
     image: "/graphics/battery-service.png",
+    year: "2025",
+  },
+    {
+    id: "g4",
+    title: "Debate Competition",
+    category: "Event Creative",
+    tag: "Promotion",
+    image: "/graphics/debate.png",
     year: "2025",
   },
   {

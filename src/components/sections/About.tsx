@@ -29,8 +29,8 @@ export default function About() {
 
         <div className="md:col-span-7">
           <p className="font-serifAccent text-2xl italic leading-snug text-ink md:text-3xl">
-            "I design the way an editor cuts a film — every frame, every
-            margin, earning its place."
+            &quot;I design the way an editor cuts a film — every frame, every
+            margin, earning its place.&quot;
           </p>
 
           <div className="mt-8 space-y-5 text-base leading-relaxed text-ink/70 md:text-lg">

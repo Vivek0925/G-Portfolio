@@ -20,7 +20,7 @@ export default function Contact() {
           as="h2"
           className="font-display text-[14vw] leading-[0.85] tracking-tightest md:text-[8vw]"
         >
-          LET'S CREATE
+          LET&apos;S CREATE
         </RevealText>
         <RevealText
           as="h2"
