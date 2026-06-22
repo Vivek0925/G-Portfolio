@@ -103,29 +103,3 @@ export const videoWork: Project[] = [
   },
 ];
 
-export const devWork: Project[] = [
-  {
-    id: "d1",
-    title: "Get Me A Cake",
-    category: "Full Stack App",
-    tag: "Next.js · MongoDB",
-    image: "/development/getmeacake.jpg",
-    year: "2025",
-  },
-  {
-    id: "d2",
-    title: "Healthcare App",
-    category: "Web Application",
-    tag: "React",
-    image: "/development/healthcare.jpg",
-    year: "2025",
-  },
-  {
-    id: "d3",
-    title: "Incident Response Env",
-    category: "AI Project",
-    tag: "FastAPI · RL",
-    image: "/development/incident-response.jpg",
-    year: "2025",
-  },
-];

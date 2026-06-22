@@ -6,7 +6,7 @@ export default function GraphicDesign() {
   return (
     <section
       id="graphics"
-      className="bg-forest px-6 py-20 text-paper md:px-10 md:py-28"
+      className="bg-paper px-6 py-20 text-paper md:px-10 md:py-28"
     >
       <div className="mb-12 flex items-end justify-between gap-6">
         <div>
@@ -14,7 +14,7 @@ export default function GraphicDesign() {
 
           <RevealText
             as="h2"
-            className="font-display mt-3 text-[12vw] leading-[0.85] tracking-tightest md:text-[6vw]"
+            className="font-display text-black mt-3 text-[12vw] leading-[0.85] tracking-tightest md:text-[6vw]"
           >
             SELECTED WORK
           </RevealText>
