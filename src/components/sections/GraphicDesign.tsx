@@ -6,11 +6,11 @@ export default function GraphicDesign() {
   return (
     <section
       id="graphics"
-      className="bg-paper px-6 py-20 text-paper md:px-10 md:py-28"
+      className=" px-6 py-20 text-paper md:px-10 md:py-28"
     >
       <div className="mb-12 flex items-end justify-between gap-6">
         <div>
-          <span className="eyebrow text-mustard">01 — Graphic Design</span>
+          <span className="eyebrow text-forest">01 — Graphic Design</span>
 
           <RevealText
             as="h2"

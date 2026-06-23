@@ -15,7 +15,7 @@ export default function About() {
       <div className="mt-12 grid grid-cols-1 gap-10 md:mt-16 md:grid-cols-12 md:gap-8">
         <div className="relative aspect-[4/5] md:col-span-4">
           <Image
-            src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=900&auto=format&fit=crop"
+            src="/profile/luffy.jfif  "
             alt="Vivek at his desk"
             fill
             className="object-cover"
