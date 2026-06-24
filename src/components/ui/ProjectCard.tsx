@@ -68,11 +68,11 @@ export default function ProjectCard({
       </div>
 
       <div className="mt-2">
-        <h3 className="text-sm font-medium text-paper">
+        <h3 className="text-sm font-medium text-black">
           {project.title}
         </h3>
 
-        <p className="text-xs text-paper/60">
+        <p className="text-xs text-forest">
           {project.category}
         </p>
       </div>

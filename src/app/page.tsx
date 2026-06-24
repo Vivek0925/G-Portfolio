@@ -4,7 +4,6 @@ import GraphicDesign from "@/components/sections/GraphicDesign";
 import VideoEditing from "@/components/sections/VideoEditing";
 import About from "@/components/sections/About";
 import Contact from "@/components/sections/Contact";
-import Marquee from "@/components/ui/Marquee";
 import GsapScrollProvider from "@/components/GsapScrollProvider";
 
 export default function Home() {
@@ -13,7 +12,6 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
-        <Marquee text="GRAPHIC DESIGN  —  VIDEO EDITING  —  CREATIVE DIRECTION " />
         <GraphicDesign />
         <VideoEditing />
         <About />
