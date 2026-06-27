@@ -2,7 +2,6 @@ import RevealText from "@/components/ui/RevealText";
 import ProjectCard from "@/components/ui/ProjectCard";
 import { graphicWork } from "@/data/projects";
 
-
 export default function GraphicDesign() {
   return (
     <section

@@ -28,7 +28,9 @@ export default function VideoEditing() {
             whileHover="hover"
             animate="rest"
             className={`group relative overflow-hidden rounded-sm bg-ink/5 ${
-              i === 1 ? "col-span-2 aspect-[16/9] md:col-span-2 md:aspect-[4/3]" : "aspect-[3/4]"
+              i === 1
+                ? "col-span-2 aspect-[16/9] md:col-span-2 md:aspect-[4/3]"
+                : "aspect-[3/4]"
             }`}
           >
             <Image

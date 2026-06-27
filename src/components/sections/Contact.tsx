@@ -2,9 +2,21 @@ import RevealText from "@/components/ui/RevealText";
 import MagneticButton from "@/components/ui/MagneticButton";
 
 const socials = [
-  { label: "Email", value: "vivekmandal123v@gmail.com", href: "mailto:vivekmandal123v@gmail.com" },
-  { label: "Instagram", value: "@vivek.designs", href: "https://instagram.com" },
-  { label: "LinkedIn", value: "/in/vivek", href: "https://www.linkedin.com/in/vivek-mandal-508660358/" },
+  {
+    label: "Email",
+    value: "vivekmandal123v@gmail.com",
+    href: "mailto:vivekmandal123v@gmail.com",
+  },
+  {
+    label: "Instagram",
+    value: "@vivek.designs",
+    href: "https://instagram.com",
+  },
+  {
+    label: "LinkedIn",
+    value: "/in/vivek",
+    href: "https://www.linkedin.com/in/vivek-mandal-508660358/",
+  },
 ];
 
 export default function Contact() {

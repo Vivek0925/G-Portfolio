@@ -15,7 +15,7 @@ export default function About() {
       <div className="mt-12 grid grid-cols-1 gap-10 md:mt-16 md:grid-cols-12 md:gap-8">
         <div className="relative aspect-[4/5] md:col-span-4">
           <Image
-            src="/hero/me.jpg" 
+            src="/hero/me.jpg"
             alt="Vivek at his desk"
             fill
             className="object-cover"
@@ -37,15 +37,14 @@ export default function About() {
             <p>
               Vivek is a graphic designer and video editor working at the
               intersection of print, motion, and digital identity. His work
-              spans branding systems, campaign design, and cinematic edits
-              for clients who want their visuals to feel considered, not
-              templated.
+              spans branding systems, campaign design, and cinematic edits for
+              clients who want their visuals to feel considered, not templated.
             </p>
             <p>
               Trained on the principles of Swiss grid design and editorial
-              layout, he treats every project — a poster, a reel, a brand
-              system — as a small publication: structured, deliberate, and
-              built to be looked at twice.
+              layout, he treats every project — a poster, a reel, a brand system
+              — as a small publication: structured, deliberate, and built to be
+              looked at twice.
             </p>
             <p>
               He also happens to build the occasional website, because good

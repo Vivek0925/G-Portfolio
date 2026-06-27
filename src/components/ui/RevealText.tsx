@@ -17,7 +17,7 @@ export default function RevealText({
   const Tag = motion[as as "div"];
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-visible">
       <Tag
         className={className}
         initial={{
