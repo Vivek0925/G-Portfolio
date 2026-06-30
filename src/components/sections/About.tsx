@@ -54,7 +54,7 @@ export default function About() {
 
           <div className="mt-10 flex flex-wrap gap-x-10 gap-y-4 border-t border-ink/10 pt-6">
             {[
-              ["Tools", "Photoshop · Illustrator · Premiere · After Effects"],
+              ["Tools", "Photoshop · Canva · Affinity · Premiere Pro · Capcut Pc"],
               ["Focus", "Branding · Motion · Editorial Layout"],
               ["Based", "India — Available Worldwide"],
             ].map(([label, value]) => (
