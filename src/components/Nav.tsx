@@ -47,7 +47,7 @@ export default function Nav() {
             <a
               key={l.label}
               href={l.href}
-              className={`eyebrow relative transition-colors duration-300 ${navText} hover:text-forest ${
+              className={`eyebrow relative transition-colors duration-300 ${navText} hover:text-green-600 ${
                 l.muted ? "opacity-50 hover:opacity-100" : ""
               }`}
             >
